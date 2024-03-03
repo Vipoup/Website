@@ -1,0 +1,25 @@
+* {
+    border: solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: auto;
+}
+
+header p {
+    background-color: lightgreen;
+    padding: 5%;
+    margin: 10%;
+    background-clip: padding-box;
+    border: dotted darkred;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
