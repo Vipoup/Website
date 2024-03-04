@@ -1,10 +1,12 @@
-* {
+/* * {
     border: solid black;
-}
+} */
 
 body {
     display: flex;
     flex-direction: column;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -14,12 +16,16 @@ header {
     gap: auto;
 }
 
-header p {
-    background-color: lightgreen;
-    padding: 5%;
-    margin: 10%;
+header > h1 {
+    margin-bottom: 0;
+}
+
+#address{
+    background-color: #ebebeb81;
     background-clip: padding-box;
-    border: dotted darkred;
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 1% 5%;
+    text-align: center;
+    /* color: white; */
+    border-radius: 25px;
+    font-weight: bolder;
 }
